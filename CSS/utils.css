@@ -1,0 +1,316 @@
+
+:root {
+    --white: #fff;
+    --primary: #007BFF;
+    --secondary: #6C757D;
+    --success: #28A745;
+    --danger: #DC3545;
+    --warning: #FFC107;
+    --info: #17A2B8;
+    --dark: #343A40;
+    --light: #F8F9FA;
+}
+
+/* TEXT COLOR */
+
+.text-primary { color: var(--primary); }
+.text-secondary { color: var(--secondary); }
+.text-success { color: var(--success); }
+.text-danger { color: var(--danger); }
+.text-warning { color: var(--warning); }
+.text-info { color: var(--info); }
+.text-dark { color: var(--dark); }
+.text-light { color: var(--light); }
+
+/* BG-COLORS */
+
+.bg-primary { background-color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+.bg-success { background-color: var(--success); }
+.bg-danger { background-color: var(--danger); }
+.bg-warning { background-color: var(--warning); }
+.bg-info { background-color: var(--info); }
+.bg-dark { background-color: var(--dark); }
+.bg-light { background-color: var(--light); }
+
+/* BUTTONS */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+/* BTN PRIMARY OUTLINE HOVER */
+
+.btn-primary {
+    color: var(--white);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.btn-primary:hover {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline-primary {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline-primary:hover {
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+/* BTN SECONDARY OUTLINE HOVER */
+
+.btn-secondary {
+    color: var(--white);
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+.btn-secondary:hover {
+    background: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.btn-outline-secondary {
+    background: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.btn-outline-secondary:hover {
+    color: var(--white);
+    background-color: var(--secondary);
+}
+/* BTN SUCCESS OUTLINE HOVER */
+
+.btn-success {
+    color: var(--white);
+    background-color: var(--success);
+    border: 1px solid var(--success);
+}
+.btn-success:hover {
+    background: transparent;
+    border: 1px solid var(--success);
+    color: var(--success);
+}
+.btn-outline-success {
+    background: transparent;
+    border: 1px solid var(--success);
+    color: var(--success);
+}
+.btn-outline-success:hover {
+    color: var(--white);
+    background-color: var(--success);
+}
+
+/* BTN DANGER OUTLINE HOVER */
+
+.btn-danger {
+    color: var(--white);
+    background-color: var(--danger);
+    border: 1px solid var(--danger);
+}
+.btn-danger:hover {
+    background: transparent;
+    border: 1px solid var(--danger);
+    color: var(--danger);
+}
+.btn-outline-danger {
+    background: transparent;
+    border: 1px solid var(--danger);
+    color: var(--danger);
+}
+.btn-outline-danger:hover {
+    color: var(--white);
+    background-color: var(--danger);
+}
+
+/* BTN WARNING OUTLINE HOVER */
+
+.btn-warning {
+    color: var(--white);
+    background-color: var(--warning);
+    border: 1px solid var(--warning);
+}
+.btn-warning:hover {
+    background: transparent;
+    border: 1px solid var(--warning);
+    color: var(--warning);
+}
+.btn-outline-warning {
+    background: transparent;
+    border: 1px solid var(--warning);
+    color: var(--warning);
+}
+.btn-outline-warning:hover {
+    color: var(--white);
+    background-color: var(--warning);
+}
+
+/* BTN INFO OUTLINE HOVER */
+
+.btn-info {
+    color: var(--white);
+    background-color: var(--info);
+    border: 1px solid var(--info);
+}
+.btn-info:hover {
+    background: transparent;
+    border: 1px solid var(--info);
+    color: var(--info);
+}
+.btn-outline-info {
+    background: transparent;
+    border: 1px solid var(--info);
+    color: var(--info);
+}
+.btn-outline-info:hover {
+    color: var(--white);
+    background-color: var(--info);
+}
+
+/* BTN DARK OUTLINE HOVER */ 
+
+.btn-dark {
+    color: var(--white);
+    background-color: var(--dark);
+    border: 1px solid var(--dark);
+}
+.btn-dark:hover {
+    background: transparent;
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+.btn-outline-dark {
+    background: transparent;
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+.btn-outline-dark:hover {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+/* SECTION HEADER */
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.section-header h2 {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.section-padding {
+    padding: 2rem 2rem 4rem;
+}
+
+/* FLEX ITEMS */
+
+.flex-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-items>div {
+    padding: 20px;
+    flex-basis: 100%;
+}
+
+/* FLEX COLUMNS */
+
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .column {
+    flex: 1; 
+}
+
+.flex-columns.article .column:nth-child(odd) {
+    flex: 2;
+}
+
+.flex-columns.article .column:nth-child(even) {
+    flex: 3;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+    height: 100%;
+}
+
+.flex-columns .column .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+}
+
+/* FLEX GRID */
+
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 .4rem;
+}
+
+.flex-grid .column {
+    padding: 0 .4rem;
+    flex: 25%;
+}
+
+/* MOBILE / MEDIA */
+
+@media (max-width: 768px) {
+    .flex-items {
+        flex-direction: column;
+    }
+    .flex-items>div {
+        padding: 1rem;
+    }
+    .flex-columns .column {
+        flex: 100% !important;
+    }
+    .flex-grid .column {
+        flex: 50%;
+    }
+    .main-header.blog .content {
+        top: 5rem;
+    }
+}
