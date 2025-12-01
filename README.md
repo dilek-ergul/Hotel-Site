@@ -12,7 +12,7 @@ This is my Hotel Website Project.
 ![Screenshot](hs-blogs-2.png)
 ![Screenshot](hs-blogs-3.png)
 ## Description
-Hotel webiste created by me involving Flexbox. Created with the help of the tutorials on Udemy course "Komple Uygulamalı Web Geliştirme Eğitimi [2025]" by Sadık Turan.
+Hotel webiste created by Dilek Ergül involving Flexbox. Created with the help of the tutorials on Udemy course "Komple Uygulamalı Web Geliştirme Eğitimi [2025]" by Sadık Turan.
 ## How to Use
 Open this website in a browser:
 https://dilek-ergul.github.io/Hotel-Site/
